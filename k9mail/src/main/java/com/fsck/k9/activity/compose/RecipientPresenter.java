@@ -44,7 +44,7 @@ public class RecipientPresenter {
     private String cryptoProvider;
     private RecipientType lastFocusedType = RecipientType.TO;
     private Boolean hasContactPicker;
-    private CryptoMode currentCryptoMode = CryptoMode.OPPORTUNISTIC;
+    private CryptoMode currentCryptoMode = CryptoMode.DISABLE;
     private ComposeCryptoStatus currentCryptoStatus;
 
 

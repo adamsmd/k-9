@@ -84,7 +84,7 @@ public class ComposeCryptoStatus {
     }
 
     public boolean isMissingSignKey() {
-        return signingKeyId == null;
+        return cryptoMode != CryptoMode.DISABLE && signingKeyId == null;
     }
 
     public boolean isPrivateAndIncomplete() {
